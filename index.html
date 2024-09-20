@@ -1,0 +1,61 @@
+<!--Guillermo Sanchez Cuesta-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css"> <!-- Esto cargaria un archivo de estilo, pero no es necesario en Fiddle porque lo hace automáticamente -->
+  <script src="script.js"></script> <!--Aquí podriamos cargar los scripts, también se puede en el <body>, y pasa lo mismo que con el css de antes, en verdad aquí no estamos cargando nada-->
+</head>
+
+<body>
+    <audio controls autoplay loop>
+        <source src="animals.mp3" type="audio/mp3" />
+    </audio>
+    <h1>Baby im pr</h1>
+    <div>
+        <h2 class=clase>Este es de eying on you tonight y hay más</h2>
+
+        <p class=clase id="magico"> Esto es un hunt you down eat you alive. Y abajo aparece una just like animals (oh)</p>
+        <a class ="ucm" href="https://www.ucm.es/" target="_blank">
+            <img src="https://image.cdn2.seaart.ai/2023-07-07/42440701546565/b71ac8ecf254312fbe60c76bab306d2a614a78ef_high.webp" alt="Si la imagen no se carga, se ve esto"><!--Modifica el atributo src y verás como se muestra el mensaje, pero el link (etiqueta <a>) seguirá funcionando al ser un hijo -->
+        </a>
+    </div>
+    <div>
+        <button onclick="alert(devuelveTextoDeAlerta())">Soy un botón de Aullido</button>
+    </div>
+    <div>
+        <button onclick="document.getElementById('magico').style.visibility='hidden'"> Animals (animals)!!! </button>
+        <button onclick="desaparece('magico')"> Like animals (mals)!!! (pero usando una función) </button>
+    </div>
+    <a href="https://content.imageresizer.com/" target="_blank">
+        <img src="https://content.imageresizer.com/images/memes/Chopper-crying-meme-9.jpg" class="chopper" alt="Si la imagen no se carga, se ve esto"><!--Modifica el atributo src y verás como se muestra el mensaje, pero el link (etiqueta <a>) seguirá funcionando al ser un hijo -->
+    </a>
+    <a href="https://media.tenor.com/" target="_blank">
+        <img src="https://media.tenor.com/a_UuRf9IUPIAAAAM/tony-tony-chopper-chopper-crying.gif" class="chopper" alt="Si la imagen no se carga, se ve esto"><!--Modifica el atributo src y verás como se muestra el mensaje, pero el link (etiqueta <a>) seguirá funcionando al ser un hijo -->
+    </a>
+    <a href="https://media.tenor.com/" target="_blank">
+        <img src="https://media.tenor.com/3ygjIaxq3F8AAAAM/nonioona-wolf.gif" class="chopper" alt="Si la imagen no se carga, se ve esto"><!--Modifica el atributo src y verás como se muestra el mensaje, pero el link (etiqueta <a>) seguirá funcionando al ser un hijo -->
+    </a>
+    <div>
+        <button onclick="desaparece('lista')"> Quita la lista</button>
+        <ol id="lista">
+            <li name="A"> UCM</li>
+            <li name="B"> Skibidi toilet</li>
+            <li name="A"> Hacienda</li>
+            <li name="B"> Evadir impuestos</li>
+            <li name="A"> Declaracion de la renta</li>
+            <li name="B"> Ayuda</li>
+            <li name="A"> NO evadir impuestos</li>
+        </ol>
+        <button onclick="activarDesactivarElemsPorNombre('A')"> Matar/Desmatar a lo que no me gusta</button>
+        <button onclick="activarDesactivarElemsPorNombre('B')"> Matar/Desmatar a lo que me gusta</button>
+
+        <button onclick="setColor('A', 'blue'); setColor('B', 'green');"> Cambiar color </button>
+    </div>
+
+
+</body>
+<!--2023-2024-->
+</html>

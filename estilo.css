@@ -1,0 +1,37 @@
+h1 {
+  color: blue;
+}
+
+.clase {
+  color: red;
+}
+
+.noMeGusta{
+    color: purple;
+}
+
+.meGusta{
+    color : orangered;
+}
+
+div{
+    font-family : 'Comic Sans MS';
+}
+
+button {
+    font-family: 'Comic Sans MS';
+}
+
+.chopper{
+    width: 300px;
+
+}
+
+body {
+    background-image: url('yo.jpg');
+    background-size: 1500px;
+}
+
+img{
+    width: 500px;
+}
